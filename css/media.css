@@ -1,0 +1,943 @@
+@media (max-width: 1211px) {
+  header .header-container .header-left .menu-container {
+    margin-left: 30px;
+  }
+  .bg-elem-container .bgc-elem-book {
+    display: none;
+  }
+  .sertif .ser-flex {
+    width: 80%;
+  }
+  .sertif .ser-flex img {
+    width: 20%;
+  }
+  .reviews {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 300px;
+    position: relative;
+  }
+  .reviews h1 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 60px;
+  }
+  .reviews .katalog .swiper {
+    width: 100%;
+    height: 700px;
+    padding: 0px 30px;
+  }
+  .reviews .container-reviews {
+    width: 90%;
+    height: 260px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .reviews .container-reviews .overflow-reviews {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews {
+    width: 350px;
+    margin-right: 50px;
+    height: 100%;
+    border: 4px solid #018FA3;
+    border-radius: 30px;
+    padding: 36px;
+    padding-right: 10px;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews .pinfo {
+    display: flex;
+    align-items: center;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews .pinfo p {
+    margin-left: 20px;
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #000000;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews .pinfo .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews .pinfo .avatar img {
+    width: 100%;
+    height: 100%;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews p {
+    margin-top: 12px;
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+  }
+  .bg-elem-container .bgc-elem1 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    right: 0px;
+    top: 0px;
+    z-index: -2;
+  }
+  .bg-elem-container .bgc-elem1 img {
+    width: 100%;
+  }
+  .about {
+    width: auto;
+    min-height: 1520px;
+    margin: 0 auto;
+    margin-left: 88px;
+    margin-right: 88px;
+    margin-top: 197px;
+    margin-bottom: 215px;
+    position: relative;
+  }
+  .about .lesson_1 .border_dushed {
+    top: 407px;
+  }
+  .about .lesson_1 img {
+    position: absolute;
+    right: 32px;
+    top: 378px;
+    -webkit-animation: dvig 2s ease alternate infinite;
+    animation: dvig 2s ease alternate infinite;
+  }
+  .about .lesson_2 .border_dushed {
+    bottom: 331px;
+  }
+  .about .lesson_2 img {
+    bottom: 365px;
+  }
+  .map-img {
+    transform: scale(0.7);
+  }
+}
+@media (max-width: 1207px) {
+  header {
+    padding: 0px 10px;
+  }
+  .home {
+    width: 697px;
+    min-height: 412px;
+    margin-left: 37px;
+    margin-top: 47px;
+  }
+  .bg-elem-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -100;
+  }
+  .bg-elem-container .bgc-elem1 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    right: -200px;
+    top: 0px;
+    z-index: -2;
+    overflow: hidden;
+  }
+  .bg-elem-container .bgc-elem1 img {
+    width: 100%;
+  }
+  .about2 {
+    transform: scale(0.7);
+    width: 100%;
+  }
+  .katalog {
+    margin-top: 90px;
+  }
+  .katalog .swiper {
+    width: 80%;
+  }
+}
+@media (max-width: 885px) {
+  .mobile-menu {
+    display: block;
+    width: 60px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .mobile-menu span {
+    display: block;
+    width: 100%;
+    height: 8px;
+    background-color: #FAE01A;
+    border-radius: 5px;
+    border: 2px solid #000;
+  }
+  header {
+    padding: 0px 20px;
+  }
+  .header-left {
+    align-items: center;
+  }
+  header .header-container .header-left .menu-container {
+    display: none;
+  }
+  .reviews {
+    width: 100%;
+    height: 900px;
+    margin-bottom: 60px;
+    position: relative;
+  }
+  .reviews h1 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 60px;
+  }
+  .reviews .katalog .swiper {
+    width: 100%;
+    height: 700px;
+    padding: 0px 30px;
+  }
+  .reviews .container-reviews {
+    width: 90%;
+    height: 850px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .reviews .container-reviews .overflow-reviews {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews {
+    width: 100%;
+    margin-right: 0px;
+    height: 100%;
+    border: 4px solid #018FA3;
+    border-radius: 30px;
+    padding: 36px;
+    padding-right: 10px;
+    z-index: 200;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews .pinfo {
+    display: flex;
+    align-items: center;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews .pinfo p {
+    margin-left: 20px;
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #000000;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews .pinfo .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews .pinfo .avatar img {
+    width: 100%;
+    height: 100%;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews p {
+    margin-top: 12px;
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+  }
+  .reviews .next {
+    display: none;
+  }
+  .reviews .prev {
+    display: none;
+  }
+  .contacts {
+    width: 100%;
+    height: 1022px;
+    position: relative;
+  }
+  .map {
+    width: 100%;
+    position: absolute;
+    top: 485px;
+  }
+  .contacts .bgc_boy {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    right: 80px;
+    -webkit-animation: dvig 10s ease alternate infinite;
+    animation: dvig 10s ease alternate infinite;
+    display: none;
+  }
+  .map .map_img {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -397px;
+    transform: scale(0.6);
+  }
+  .info_bar header {
+    justify-content: space-around;
+  }
+  .info_bar header .text-box {
+    display: none;
+  }
+  .home {
+    width: 80%;
+  }
+  .home h1 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 49px;
+    color: #018FA3;
+  }
+  .home p {
+    font-size: 17px;
+  }
+  .contacts .info .bgc_info {
+    width: 490px;
+    height: 540px;
+    background: #018FA3;
+    box-shadow: 0px 50px 50px -27px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    position: static;
+    padding: 10px 40px;
+    margin: 0 auto;
+    z-index: 100;
+  }
+}
+@media (max-width: 735px) {
+  .son-reviews:nth-child(5) {
+    display: none;
+  }
+  .son-reviews:nth-child(6) {
+    display: none;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews {
+    width: 100%;
+    margin-right: 0px;
+    height: 100%;
+    border: 4px solid #018FA3;
+    border-radius: 30px;
+    padding: 36px;
+    padding-right: 10px;
+    z-index: 200;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews .pinfo {
+    display: flex;
+    align-items: center;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews .pinfo p {
+    margin-left: 20px;
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #000000;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews .pinfo .avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews .pinfo .avatar img {
+    width: 100%;
+    height: 100%;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews p {
+    margin-top: 12px;
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+  }
+}
+@media (max-width: 626px) {
+  .home {
+    width: 100%;
+    min-height: 412px;
+    margin: 0 auto;
+    margin-top: 47px;
+  }
+  .home p {
+    text-align: center;
+  }
+  .home button {
+    display: block;
+    margin: 0 auto;
+  }
+  .home h1 {
+    display: block;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .bg-elem-container .bgc-elem1 {
+    display: none;
+  }
+}
+@media (max-width: 699px) {
+  header .header-container .header-left .logo {
+    width: 50px;
+    height: 50px;
+  }
+  header .header-container .header-left .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .mobile-menu {
+    display: block;
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .mobile-menu span {
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #FAE01A;
+    border-radius: 5px;
+    border: 1px solid #000;
+  }
+  header .header-container .phone-number .phone {
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+  }
+  header .header-container .phone-number .number {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .home {
+    min-height: auto;
+  }
+  .home h1 {
+    line-height: normal;
+    font-size: 19px;
+  }
+  .home p {
+    font-size: 13px;
+    line-height: normal;
+  }
+  .home button {
+    width: 230px;
+    height: 50px;
+    font-size: 15px;
+  }
+  .bg-elem-container .bgc-elem-notebook {
+    position: absolute;
+    left: 112.59px;
+    top: 178px;
+    z-index: -5;
+  }
+  .bg-elem-container .bgc-elem-w {
+    position: absolute;
+    left: 2.39px;
+    top: 52px;
+    z-index: -5;
+  }
+  .about2 {
+    transform: scale(0.3);
+    width: 100%;
+    height: 350px;
+  }
+  .about {
+    width: auto;
+    min-height: 839px;
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about .section_1 {
+    position: relative;
+    position: static;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .about .section_1 .circle {
+    position: absolute;
+    left: 10px;
+    z-index: -6;
+    -webkit-animation: krug 3s infinite linear;
+            animation: krug 3s infinite linear;
+    width: 70px;
+    height: 70px;
+  }
+  .about .section_1 .circle img {
+    width: 100%;
+    height: 100%;
+  }
+  .about .section_1 .bgc-box {
+    width: 240px;
+    height: 104px;
+    background: #FFF7BE;
+    border-radius: 30px;
+    position: absolute;
+    left: 45px;
+    top: 20px;
+    z-index: -4;
+  }
+  .about .section_1 p {
+    position: absolute;
+    left: 30px;
+    top: 60px;
+    width: 250px;
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 460;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000;
+  }
+  .about .section_2 .circle {
+    position: absolute;
+    left: 10px;
+    top: 470px;
+    z-index: -6;
+    -webkit-animation: krug 3s infinite linear;
+            animation: krug 3s infinite linear;
+    width: 70px;
+    height: 70px;
+  }
+  .about .section_2 .circle img {
+    width: 100%;
+    height: 100%;
+  }
+  .about .section_2 .bgc-box {
+    width: 240px;
+    height: 104px;
+    background: #FFF7BE;
+    border-radius: 30px;
+    position: absolute;
+    left: 45px;
+    top: 490px;
+    z-index: -4;
+  }
+  .about .section_2 p {
+    position: absolute;
+    left: 30px;
+    top: 500px;
+    width: 250px;
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 460;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000;
+  }
+  .about .lesson_1 img {
+    position: absolute;
+    right: 32px;
+    top: 240px;
+    width: 200px;
+    -webkit-animation: dvig 2s ease alternate infinite;
+            animation: dvig 2s ease alternate infinite;
+  }
+  .about .lesson_1 .border_dushed {
+    width: 200px;
+    height: 143px;
+    border: 4px dashed #018FA3;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 260px;
+    z-index: -5;
+  }
+  .about .lesson_2 img {
+    position: absolute;
+    right: 52px;
+    top: 680px;
+    width: 200px;
+    left: auto;
+    -webkit-animation: dvig 2s ease alternate infinite 1s;
+            animation: dvig 2s ease alternate infinite 1s;
+  }
+  .about .lesson_2 .border_dushed {
+    width: 200px;
+    height: 143px;
+    border: 4px dashed #018FA3;
+    border-radius: 10px;
+    position: absolute;
+    right: 30px;
+    top: 700px;
+    z-index: -5;
+    left: auto;
+  }
+  .katalog {
+    margin-top: 100px;
+    width: 100%;
+    min-height: 700px;
+    background-image: url(../img/bgc.png);
+    padding-bottom: 100px;
+  }
+  .katalog h2 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 59px;
+    text-align: center;
+    margin: 10px;
+    padding-top: 18px;
+    color: #000000;
+  }
+  .katalog .swiper {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+  }
+  .katalog .swiper-slide {
+    background-color: #fff;
+    position: relative;
+    border-radius: 30px;
+    height: 600px;
+  }
+  .katalog .swiper-slide .top_content {
+    width: 100%;
+    height: 80px;
+    background-color: #018FA3;
+    position: absolute;
+    top: 0;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .katalog .swiper-slide .top_content p {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .katalog .swiper-slide .price {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: 100px;
+    text-align: center;
+    color: #000000;
+  }
+  .katalog .swiper-slide .date {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 25px;
+  }
+  .katalog .swiper-slide .more {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #018FA3;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .katalog .swiper-slide button {
+    width: 170px;
+    height: 48px;
+    border: none;
+    background: #018FA3;
+    border-radius: 40px;
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -85px;
+    cursor: pointer;
+  }
+  .katalog .swiper-slide button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 1px #018FA3;
+  }
+  .katalog .swiper-slide:nth-child(2) .top_content {
+    background-color: #955EEA;
+  }
+  .katalog .swiper-slide:nth-child(2) button {
+    background-color: #955EEA;
+  }
+  .katalog .swiper-slide:nth-child(2) button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 1px #955EEA;
+  }
+  .katalog .swiper-slide:nth-child(3) .top_content {
+    background-color: #4ECA30;
+  }
+  .katalog .swiper-slide:nth-child(3) button {
+    background-color: #4ECA30;
+  }
+  .katalog .swiper-slide:nth-child(3) button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 1px #4ECA30;
+  }
+  .katalog .swiper-slide:nth-child(4) .top_content {
+    background-color: #FFE41B;
+  }
+  .katalog .swiper-slide:nth-child(4) button {
+    background-color: #FAE01A;
+  }
+  .katalog .swiper-slide:nth-child(4) button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 1px #FAE01A;
+  }
+  .katalog .swiper-slide:nth-child(5) .top_content {
+    background-color: #FF4D94;
+  }
+  .katalog .swiper-slide:nth-child(5) button {
+    background-color: #FF4D94;
+  }
+  .katalog .swiper-slide:nth-child(5) button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 1px #FF4D94;
+  }
+  .katalog .swiper-slide:nth-child(6) .top_content {
+    background-color: #FFA724;
+  }
+  .katalog .swiper-slide:nth-child(6) button {
+    background-color: #FFA724;
+  }
+  .katalog .swiper-slide:nth-child(6) button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 1px #FFA724;
+  }
+  .katalog .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .katalog .table {
+    margin-top: 30px;
+    height: 200px;
+    overflow: hidden;
+  }
+  .katalog .table p {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: #000000;
+    text-align: center;
+  }
+  .katalog .swiper-button-next {
+    transform: scale(1.5);
+    color: black;
+    font-weight: bold;
+    z-index: 10;
+  }
+  .katalog .swiper-button-prev {
+    transform: scale(1.5);
+    color: black;
+    font-weight: bold;
+    z-index: 10;
+  }
+  .sertif {
+    position: relative;
+    height: 200px;
+  }
+  .sertif .vector {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    z-index: -10;
+    width: 150px;
+  }
+  .sertif .vector img {
+    width: 100%;
+  }
+  .sertif h1 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 59px;
+    text-align: center;
+    margin: 10px;
+    padding-top: 18px;
+    color: #000000;
+  }
+  .sertif .ser-flex {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .sertif .ser-flex img {
+    width: 100%;
+  }
+  .reviews .container-reviews .overflow-reviews {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    overflow: inherit;
+  }
+  .reviews {
+    margin-top: 150px;
+    height: auto;
+    min-height: 800px;
+  }
+  .reviews h1 {
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+  .reviews .container-reviews .overflow-reviews .slider-line .son-reviews {
+    width: 100%;
+    margin-right: 0px;
+    height: 100%;
+    border: 4px solid #018FA3;
+    border-radius: 30px;
+    padding: 20px;
+    padding-right: 0px;
+    z-index: 200;
+  }
+  .contacts .info .bgc_info {
+    width: 100%;
+    max-width: 400px;
+    height: 540px;
+    background: #018FA3;
+    box-shadow: 0px 50px 50px -27px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    position: static;
+    padding: 10px 40px;
+    margin: 0 auto;
+    z-index: 100;
+  }
+  .contacts .info .bgc_info h2 {
+    font-size: 20px;
+  }
+  .contacts .info .bgc_info p {
+    font-size: 15px;
+  }
+  .contacts {
+    display: block;
+  }
+  .contacts .info .bgc_circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #95D8E0;
+    z-index: -10;
+    position: absolute;
+    top: -129px;
+    left: 10px;
+  }
+  .map {
+    width: 100%;
+    position: absolute;
+    top: 608px;
+    transform: scale(0.6);
+  }
+  .map .bgc_circle1 {
+    position: absolute;
+    top: 80px;
+    left: 158px;
+    z-index: -10;
+    -webkit-animation: krug 3s infinite linear;
+    animation: krug 3s infinite linear;
+  }
+}/*# sourceMappingURL=media.css.map */

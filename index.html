@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css" id="darktheme">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <title>Kemenger Mektebi</title>
+</head>
+
+<body>
+
+    <div class="changeTheme">
+        <div class="moon"><i class='bx bxs-moon'></i></div>
+        <div class="sun"><i class='bx bxs-sun'></i></div>
+    </div>
+
+    <div class="sun_ld"><i class='bx bx-loader-circle'></i></div>
+    <div class="moon_ld"><i class='bx bx-loader-circle'></i></div>
+
+    <div class="none" id="zayavka-box">
+        <div class="zayavka-bgc">
+            <div class="zgr"></div>
+            <div class="zgr2"></div>
+            <div class="zayavka-block">
+                <p>Заполните <span style="color: #018FA3;">форму</span><br> и мы обязательно<br> свяжемся с Вами.</p>
+                <form action="#">
+                    <input type="text" placeholder="Ваше имя...">
+                    <input type="number" placeholder="Ваше телефон...">
+                    <input type="text" placeholder="Комментарий...">
+                    <button onclick="sucfil()" type="submit">Оставить Заявку</button>
+                </form>
+
+            </div>
+        </div>
+        <div class="bgc"></div>
+    </div>
+
+    <div class="topscroll-container">
+        <div class="topscroll" id="myBar"></div>
+    </div>
+
+    <header>
+        <div class="header-container">
+            <div class="header-left">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="menu-container">
+                    <a onclick="aboutFNC()">О нас</a>
+                    <a onclick="katalogFNC()">Каталог</a>
+                    <a onclick="sertifFNC()">Сертификаты</a>
+                    <a onclick="reviewsFNC()">Отзывы</a>
+                    <a onclick="contactsFNC()">Контакты</a>
+                    <a id="theme">Поменять тему</a>
+                </div>
+
+                <div class="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+
+            </div>
+
+            <div class="phone-number">
+                <a class="phone" href="tel: 87711459826"></a>
+                <a class="number" href="tel: 87711459826">8 (771) 145-98-26</a>
+            </div>
+        </div>
+    </header>
+    <div class="mb-bgc">
+        <div class="bgcmb">
+            <div class="set-box">
+                <a id="notebook">ТЕТРАДЬ</a>
+                <a onclick="aboutFNC()">О нас</a>
+                <hr>
+                <a onclick="katalogFNC()">Каталог</a>
+                <hr>
+                <a onclick="sertifFNC()">Сертификаты</a>
+                <hr>
+                <a onclick="reviewsFNC()">Отзывы</a>
+                <hr>
+                <a onclick="contactsFNC()">Контакты</a>
+                <hr>
+            </div>
+        </div>
+
+
+        <div class="exit">НАЗАД</div>
+    </div>
+
+    <div class="bg-elem-container">
+        <div class="bgc-elem1">
+            <img src="img/bgc-elem1.png" alt="">
+        </div>
+        <div class="bgc-elem-w">
+            <img src="img/bgc-elem-w.png" alt="">
+        </div>
+        <div class="bgc-elem-notebook">
+            <img src="img/bgc-elem-notebook.png" alt="">
+        </div>
+        <div class="bgc-elem-a">
+            <img src="img/bgc-elem-a.png" alt="">
+        </div>
+        <div class="bgc-elem-pen">
+            <img src="img/bgc-elem-pen.png" alt="">
+        </div>
+        <div class="bgc-elem-five">
+            <img src="img/bgc-elem-five.png" alt="">
+        </div>
+        <div class="bgc-elem-book">
+            <img src="img/bgc-elem-book.png" alt="">
+        </div>
+    </div>
+
+
+
+
+    <div class="home">
+        <h1>KEMENGER MEKTEBI <span id="darkth">- центр<br>
+                интеллектуального развития</span></h1>
+        <p>Обучение происходит на казахском и русском<br> языках. При записи на два или более курсов<br> предусмотрена
+            скидка.
+            Запишитесь на<br> бесплатный пробный урок.</p>
+        <button id="zay" onclick="zayavka()">Оставить заявку</button>
+    </div>
+
+
+    <div class="about">
+
+        <div class="section_1">
+            <div class="circle">
+                <img src="img/circle1.png" alt="">
+            </div>
+
+            <div class="bgc-box"></div>
+
+            <p>В нашем центре работают профессиональные педагоги любящие детей и преданные своему делу. Мы помогаем
+                детям совершенствовать свои интеллекуальные способности чтобы они могли познавать мир и делать его более
+                красивым и добрым. </p>
+        </div>
+
+
+        <div class="section_2">
+
+            <div class="circle">
+                <img src="img/circle2.png" alt="">
+            </div>
+
+            <div class="bgc-box"></div>
+
+            <p>Наши ученики показывают результат уже с первого месяца работы, мы поддерживаем в нашем центре теплую и
+                дружескую атмосферу
+                Побывав у нас детям обязательно захочется вернуться сюда снова
+                Развивайтесь вместе с нами
+            </p>
+        </div>
+
+        
+        <div class="lesson_1" id="lesson">
+            <img src="img/lesson1.png" draggable="true" id="drag_1">
+            <div class="border_dushed"></div>
+        </div>
+
+
+        <div class="lesson_2" id="lesson">
+            <img src="img/lesson2.png" draggable="true" id="drag_2">
+            <div class="border_dushed"></div>
+        </div>
+
+
+    </div>
+
+
+    <div class="about2">
+        <div class="teacher">
+            <img src="img/teacher.png" alt="">
+            <p>Мы развиваем детей с 5 до 16 лет<br>
+                по следующим направлениям</p>
+        </div>
+
+
+        <div class="icon">
+            <img src="img/Mask Group.png" alt="">
+            <p>Ментальная<br>
+                арифметика</p>
+        </div>
+        <div class="icon">
+            <img src="img/Mask Group (1).png" alt="">
+            <p>Скорочтение</p>
+        </div>
+        <div class="icon">
+            <img src="img/Mask Group (2).png" alt="">
+            <p>Подготовка<br>
+                к школе</p>
+        </div>
+        <div class="icon">
+            <img src="img/Mask Group (3).png" alt="">
+            <p>Группа<br>
+                продленного<br>
+                дня </p>
+        </div>
+        <div class="icon">
+            <img src="img/Mask Group (4).png" alt="">
+            <p>Супер<br>
+                память </p>
+        </div>
+        <div class="icon">
+            <img src="img/Mask Group (5).png" alt="">
+            <p>Английский<br>
+                язык</p>
+        </div>
+        <div class="icon">
+            <img src="img/Mask Group (6).png" alt="">
+            <p>Каллиграфия<br></p>
+        </div>
+
+    </div>
+
+    <div class="katalog">
+        <h2>Каталог</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" id="ss1">
+                    <div class="top_content">
+                        <p>Подготовка к школе</p>
+                    </div>
+                    <p class="price">30 000 тг</p>
+                    <p class="date">4-6 лет<br>3 занятия в неделю по 3 ч.</p>
+                    <div class="table" id="tb1">
+                        <p>Обучение чтению </p>
+                        <p>Письмо</p>
+                        <p>Математика</p>
+                        <p>Английский язык</p>
+                        <p>Развитие речи</p>
+                        <p>Концентрация внимания</p>
+                        <p>Усвоение изучаемого материала</p>
+                        <p>Различные техники<br> запоминания</p>
+                    </div>
+                    <p class="more" id="mr1" onclick="more_1()">Подробнее...</p>
+                    <button>Войти</button>
+                </div>
+                <div class="swiper-slide" id="ss2">
+                    <div class="top_content">
+                        <p>скорочтение</p>
+                    </div>
+                    <p class="price">27 000 тг</p>
+                    <p class="date">6-15 лет<br>3 занятия в неделю по 1 ч.</p>
+                    <div class="table" id="tb2">
+                        <p>Увеличение скорости чтения</p>
+                        <p>Артикуляция</p>
+                        <p>Развитие речи</p>
+                        <p>Развитие внимания</p>
+                        <p>Увеличение поля зрения</p>
+                        <p>Понимание прочитанного</p>
+                        <p>Пересказ</p>
+                        <p>Пробный урок и диагностика<br> БЕСПЛАТНО</p>
+                    </div>
+                    <p class="more" id="mr2" onclick="more_2()">Подробнее...</p>
+                    <button>Войти</button>
+                </div>
+                <div class="swiper-slide" id="ss3">
+                    <div class="top_content">
+                        <p>ментальная арифметика</p>
+                    </div>
+                    <p class="price">20 000 тг</p>
+                    <p class="date">2 занятия в неделю по 1 ч.</p>
+                    <div class="table" id="tb3">
+                        <p>Быстрый счет</p>
+                        <p>Развитие высокой концентрации</p>
+                        <p>Увеличесние поля зрения</p>
+                        <p>Фотографическая память</p>
+                        <p>Пробный урок БЕСПЛАТНО</p>
+                        <p>Обучающая платформа<br> в ПОДАРОК</p>
+                    </div>
+                    <p class="more" id="mr3" onclick="more_3()">Подробнее...</p>
+                    <button>Войти</button>
+                </div>
+                <div class="swiper-slide" id="ss4">
+                    <div class="top_content">
+                        <p>Каллиграфия</p>
+                    </div>
+                    <p class="price">24 000 тг</p>
+                    <p class="date">3 занятия в неделю по 1 ч.</p>
+                    <div class="table" id="tb4">
+                        <p>Развитие памяти</p>
+                        <p>Восприятие пространства</p>
+                        <p>Прокачивание мелкой моторики</p>
+                        <p>Основы грамотного письма</p>
+                        <p>Развитие физической<br> выносливости и<br> усидчивости</p>
+                        <p>Умение писать диктанты<br> без графических и<br> орфографических<br> ошибок</p>
+                    </div>
+                    <p class="more" id="mr4" onclick="more_4()">Подробнее...</p>
+                    <button>Войти</button>
+                </div>
+                <div class="swiper-slide">
+                    <div class="top_content">
+                        <p>Английский язык</p>
+                    </div>
+                    <p class="price">18 000 тг</p>
+                    <p class="date">3 занятия в неделю по 1 ч.</p>
+                    <div class="table">
+                        <p>Чтение по правилам</p>
+                        <p>Знание 500 новых слов</p>
+                        <p>Самостоятельное выполнение домашнего задания</p>
+                    </div>
+                    <button>Войти</button>
+                </div>
+                <div class="swiper-slide" id="ss5">
+                    <div class="top_content">
+                        <p>Группа продленного дня</p>
+                    </div>
+                    <p class="price">35 000 тг</p>
+                    <p class="date">5 раз в неделю<br>
+                        1 смена с 9:00 по 12:00<br>
+                        2 смена с 14:00 по 17:00</p>
+                    <div class="table" id="tb5">
+                        <p>Подготовка к СОР,СОЧ</p>
+                        <p>Проработка пробелов в знаниях</p>
+                        <p>Индивидуальный подход</p>
+                        <p>Выявление сильных<br> сторон ребенка</p>
+                        <p>Профессиональная <br>помощь в подготовке<br> домашних заданий</p>
+                        <p>Дополнительные<br> образовательные <br>дисциплины</p>
+                    </div>
+                    <p class="more" id="mr5" onclick="more_5()">Подробнее...</p>
+                    <button>Войти</button>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+
+    <div class="sertif">
+        <div class="vector">
+            <img src="img/Vector.png" alt="">
+        </div>
+
+        <h1>Наши сертификаты</h1>
+
+        <div class="ser-flex">
+            <img src="img/ser1.png" alt="">
+            <img src="img/ser2.png" alt="">
+            <img src="img/ser3.png" alt="">
+            <img src="img/ser4.png" alt="">
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="reviews">
+        <h1>Отзывы</h1>
+
+        <div class="container-reviews">
+            <div class="overflow-reviews">
+                <div class="slider-line">
+                    <div class="son-reviews">
+                        <div class="pinfo">
+                            <div class="avatar"><img src="img/p1.png" alt=""></div>
+                            <p class="pname">Malika Fazlieva</p>
+                        </div>
+                        <p>Маған ұнаған жері білімді жақсы береді. Ұлымның қатынап жүргеніне 1 ай болмады бірақ нәтиже
+                            бар. Мұғалімдеріде өте сыпайы әрі білімді.
+                        </p>
+                    </div>
+                    <div class="son-reviews">
+                        <div class="pinfo">
+                            <div class="avatar"><img src="img/p2.png" alt=""></div>
+                            <p class="pname">Aigul Lepessova</p>
+                        </div>
+                        <p>Отлично все нравится! Внучка уже 6 месяц занимается, довольны</p>
+                    </div>
+                    <div class="son-reviews">
+                        <div class="pinfo">
+                            <div class="avatar"><img src="img/p3.png" alt=""></div>
+                            <p class="pname">Malika Fazlieva </p>
+                        </div>
+                        <p>Маған ұнаған жері білімді жақсы береді. Ұлымның қатынап жүргеніне 1 ай болмады бірақ нәтиже
+                            бар. Мұғалімдеріде өте сыпайы әрі білімді.
+                        </p>
+                    </div>
+                    <div class="son-reviews">
+                        <div class="pinfo">
+                            <div class="avatar"><img src="img/p4.png" alt=""></div>
+                            <p class="pname">Анара Баймаганбетова</p>
+                        </div>
+                        <p>Искренне рекомендую, детям дают отличные знания и безопасность. Профессионалы своего дела.
+                            Удачи вам и успехов желаю.</p>
+                    </div>
+                    <div class="son-reviews">
+                        <div class="pinfo">
+                            <div class="avatar"><img src="img/p5.png" alt=""></div>
+                            <p class="pname">Gulzhan Kossantayeva</p>
+                        </div>
+                        <p>Комфорная обстановака, распологает к учебе, учителя доброжелательные,но требовательные! То,
+                            что надо! Советую 100%.</p>
+                    </div>
+                    <div class="son-reviews">
+                        <div class="pinfo">
+                            <div class="avatar"><img src="img/p6.png" alt=""></div>
+                            <p class="pname">Енлик Серик</p>
+                        </div>
+                        <p>Айжан Талгатовна өз ісінің маманы. Менің қызымның оқу үлгеріміне көп ықпал тигіздіңіз.
+                            Кемеңгер мектебі нағыз кеменгер бала тәлімін береді!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="next"><img src="img/str1.png" alt=""></div>
+        <div class="prev"><img src="img/str2.png" alt=""></div>
+    </div>
+
+    <div class="contacts">
+        <div class="info">
+            <div class="bgc_circle"></div>
+            <div class="bgc_info">
+                <h2>Наши контакты</h2>
+                <p>Запишитесь на <span style="animation: free 0.1s alternate infinite;">БЕСПЛАТНЫЙ</span> пробный урок
+                    по номеру:</p>
+                <p style="font-weight: normal; margin-bottom: 20px; margin-top: 5px;">8 (771) 145-98-26 </p>
+                <p>Адрес:</p>
+                <p style="font-weight: normal; margin-bottom: 20px; margin-top: 5px;">г. Нур-Султан, ул. К. Аманжолова,
+                    28, офис 14</p>
+                <p>График работы:</p>
+                <p style="font-weight: normal; margin-bottom: 20px; margin-top: 5px;">Пн-Пт - 9:00-19:00;
+                    Сб - 9:00-17:00;
+                    Вс - выходной</p>
+                <p>E-mail:</p>
+                <p style="font-weight: normal; margin-bottom: 20px; margin-top: 5px;">@kemenger.mektebi</p>
+            </div>
+        </div>
+        <div class="bgc_boy">
+            <!-- <div class="circle"></div> -->
+            <img src="img/bgc-boy.png" alt="">
+        </div>
+
+        <div class="map">
+            <div class="bgc_circle1"><img src="img/circle1.png" alt=""></div>
+            <div class="bgc_circle2"><img src="img/circle2.png" alt=""></div>
+            <div class="map_img">
+                <img src="img/map.png" alt="">
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="info_bar">
+        <header>
+
+            <div class="logo"><img src="img/logo.png" alt=""></div>
+            <div class="text-box">
+                <p onclick="aboutFNC()">О нас</p>
+                <p onclick="katalogFNC()">Каталог</p>
+                <p onclick="sertifFNC()">Сертификаты</p>
+                <p onclick="reviewsFNC()">Отзывы</p>
+                <p onclick="contactsFNC()">Контакты</p>
+            </div>
+            <div class="dss"><img src="img/dss.png" alt=""></div>
+        </header>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
